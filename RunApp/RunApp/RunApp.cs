@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 //My project
 class Program
 {
@@ -63,8 +62,7 @@ class Program
                 Console.Write("You have entered: " + runningTotal + " minutes" + "\n");
 
             }
-            //Console.WriteLine("Your FINAL DATA: " + runningTotal + " minutes" );
-            //Console.WriteLine("Goodbye!"); 
+          
         }
 
         Console.WriteLine("Your FINAL DATA: " + runningTotal + " minutes");
