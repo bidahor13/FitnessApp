@@ -28,7 +28,6 @@
                       continue;
                     }
                    
-                    
                  if(minutes <= 10 )
                   {
                     Console.WriteLine("Better than nothing, am I right?");
@@ -55,7 +54,6 @@
                    continue;
                    }
                  
-           
           //Display total minutes exercised to the screen
           Console.Write("You have entered: "+ runningTotal + " minutes" + "\n");   
                
