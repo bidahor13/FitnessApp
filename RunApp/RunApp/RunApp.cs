@@ -11,7 +11,7 @@ class Program
 
         while (keepGoing)
         {
-            System.Console.Write("Enter how many minutes you exercised or type \"quit\" to exit: ");
+            Console.Write("Enter how many minutes you exercised or type \"quit\" to exit: ");
 
             //Reads the users input
             string entry = Console.ReadLine();
