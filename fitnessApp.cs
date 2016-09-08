@@ -1,6 +1,7 @@
   using System;
   class Program
   {
+      //main method
       static void Main()
       {
         double runningTotal = 0;
@@ -56,16 +57,12 @@
                    Console.WriteLine("This is not a valid input entry");
                    continue;
                  }
-                 
-                 
-                
+                      
         
         //Display total minutes exercised to the screen
         Console.Write("You have entered: "+ runningTotal + " minutes" + "\n");   
                
           }
-          //Console.WriteLine("Your FINAL DATA: " + runningTotal + " minutes" );
-          //Console.WriteLine("Goodbye!");
           
         }
        
