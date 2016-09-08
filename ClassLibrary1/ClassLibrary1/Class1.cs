@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        int runningTotal = 0;
+        double runningTotal = 0;
         bool keepGoing = true;
         //Prompts the user for data entry
 
@@ -26,7 +26,7 @@ class Program
                 //Deals with the System.FormatException in case a string value is placed as an input value.
                 try
                 {
-                    int minutes = int.Parse(entry);
+                    double minutes = int.Parse(entry);
                     if (minutes <= 0)
                     {
                         Console.WriteLine("The value " + minutes + " Minutes is not an acceptable value.");
