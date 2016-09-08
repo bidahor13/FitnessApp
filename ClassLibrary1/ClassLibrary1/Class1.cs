@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 //My project
 class Program
 {
